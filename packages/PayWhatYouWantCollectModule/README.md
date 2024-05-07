@@ -14,14 +14,7 @@ This module allows for collectors to name their price, in any supported token, f
 
 ## Deployments
 
-The Collect Publication Action is deployed to Polygon mainnet and Amoy testnet. The latest contract addresses can be found [here](https://docs.lens.xyz/docs/deployed-contract-addresses).
-
-| Network | Chain ID | `CollectPublicationAction` Contract Address                                                                                   |
-|---------|----------|-------------------------------------------------------------------------------------------------------------------------------|
-| Polygon | 137      | [0x0D90C58cBe787CD70B5Effe94Ce58185D72143fB](https://polygonscan.com/address/0x0D90C58cBe787CD70B5Effe94Ce58185D72143fB)      |
-| Amoy    | 80002    | [0x34A437A91415C36712B0D912c171c74595Be437d](https://amoy.polygonscan.com/address/0x34A437A91415C36712B0D912c171c74595Be437d) |
-
-Collect Modules are initialized in a similar fashion to Open Actions. The addresses for the `PayWhatYouWantCollectModule` contracts are:
+The Collect Publication Action is deployed to Polygon mainnet and Amoy testnet. The latest contract addresses can be found [here](https://docs.lens.xyz/docs/deployed-contract-addresses). The addresses for the `PayWhatYouWantCollectModule` contracts are:
 
 | Network | Chain ID | `PayWhatYouWantCollectModule` Contract Address                                                                                |
 |---------|----------|-------------------------------------------------------------------------------------------------------------------------------|

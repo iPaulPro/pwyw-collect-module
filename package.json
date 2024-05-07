@@ -6,7 +6,11 @@
     "packages/*"
   ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "yarn workspace pwyw-collect-module build",
+    "prepublish": "yarn workspace pwyw-collect-module prepublish",
+    "lint": "yarn workspace pwyw-collect-module lint",
+    "compile": "yarn workspace PayWhatYouWantCollectModule compile",
+    "clean": "yarn workspace PayWhatYouWantCollectModule clean"
   },
   "author": "Paul Burke <paul@paulburke.co>",
   "repository": "https://github.com/iPaulPro/pwyw-collect-module",

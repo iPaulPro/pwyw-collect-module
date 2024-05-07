@@ -1,0 +1,24 @@
+{
+  "name": "pwyw-collect-module",
+  "version": "1.0.0",
+  "description": "Pay What You Want Lens Collect Module that allows collectors to name their price, in any supported token, to collect Lens NFTs.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepublish": "tsc",
+    "lint": "eslint . --ext .ts"
+  },
+  "author": "Paul Burke <paul@paulburke.co>",
+  "repository": "https://github.com/iPaulPro/pwyw-collect-module",
+  "license": "MIT",
+  "devDependencies": {
+    "@lens-protocol/client": "^2.2.0",
+    "@types/node": "^20.11.19",
+    "@typescript-eslint/eslint-plugin": "^7.0.1",
+    "@typescript-eslint/parser": "^7.0.1",
+    "eslint": "^8.56.0",
+    "prettier": "^3.2.5",
+    "typescript": "^5.3.3"
+  }
+}
